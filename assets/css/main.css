@@ -161,6 +161,45 @@ textarea {
   appearance: none;
 }
 
+
+
+/* WORK PAGE */
+
+#work section .row div{
+  padding: 1rem;
+  text-align: center;
+}
+
+#work section .row div h2{
+  margin-bottom: 1rem;
+}
+
+#work section .row div:hover {
+  outline: 1px solid lime;
+  background-color: rgba(34, 34, 34, 0.6);
+}
+
+#biggie_smalls {
+  max-width: 90%;
+}
+
+.squad #biggie_smalls {
+  /* background-color: #67ECDB */
+  filter: drop-shadow(-0.2rem 0.2rem 0.1rem  #b64b72 )
+}
+
+/* 
+.hf19 {
+  
+} */
+
+#work li {
+  list-style: square;
+  line-height: 0.9rem;
+}
+
+
+
 /* Row */
 
 .row {
@@ -193,10 +232,14 @@ textarea {
   max-height: 90px;
 }
 
-.skillTitle {
+.skillTitle, .workTitle {
   text-align: center;
   margin: 2rem;
   background-color: #222222;
+}
+
+.workTitle + p {
+  text-align: center;
 }
 
 .skillBox {
