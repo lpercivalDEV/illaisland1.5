@@ -1,5 +1,5 @@
 # Bienvenidos a illa island!
- [live site](https://www.illaisland.com/)
+![live site](https://www.illaisland.com/)
 
 illa island is a place where I put my ideas, thoughts, and creations - from art, to music, travel, and tech.
 
@@ -12,7 +12,7 @@ You get all of me, or you get none of me.
 So, I hope you enjoy this mini trip inside my thoughts.
 This is version 1.5, updated to reflect my growth. Stay tuned, 2.0 is on the way.
 
-To see version 1.0 of illa island [click here](https://github.com/lpercivalDEV/old_illaisland).
+To see version 1.0 of illa island ![click here](https://github.com/lpercivalDEV/old_illaisland).
 
 
 ## Tech
