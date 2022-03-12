@@ -2103,7 +2103,7 @@ ul.actions li:first-child {
   margin: 0 auto;
   max-height: 100vh;
   max-width: 100%;
-  padding: 4em 0;
+  padding: 2em 0;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -2484,8 +2484,16 @@ canvas {
   position: absolute;
   bottom: 0;
   right: 0;
-  /* background-color: lime; */
   opacity: 0.2;
+}
+
+#onda:active {
+  opacity: 1;
+  background-color: #67ECDB;
+  -moz-transition: background-color 0.25s ease-in-out;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  -ms-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
 }
 
 
@@ -2513,7 +2521,11 @@ canvas {
   padding: 0.5rem;
 }
 
-.sorpresaText {
+#sorpresaText {
   margin-top: 2rem;
   padding-top: 1rem;
+  -moz-transition: background-color 0.25s ease-in-out;
+  -webkit-transition: background-color 0.25s ease-in-out;
+  -ms-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
 }
