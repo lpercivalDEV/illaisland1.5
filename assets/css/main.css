@@ -179,8 +179,12 @@ textarea {
   background-color: rgba(34, 34, 34, 0.6);
 }
 
+#projects .bigPun {
+  max-width: 40%;
+}
+
 #biggie_smalls {
-  max-width: 90%;
+  max-width: 80%;
 }
 
 .squad #biggie_smalls {
@@ -255,7 +259,7 @@ textarea {
     /* backdrop-filter: blur(4px) saturate(150%) blue; */
 }
 
-.secret {
+.secret, .panas {
   text-align: center;
   border: 1px solid #67ECDB;
   filter: drop-shadow(-0.2rem 0.2rem 0.1rem  #b64b72 );
