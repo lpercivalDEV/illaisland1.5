@@ -426,8 +426,14 @@
 							<header>
 								<h1>Dígame</h1>
 							</header>
-							<form action="#" method="post" data-netlify="true" name="positiveContact">
+							<form action="#" method="post" data-netlify="true" name="positiveContact"
+							netlify-honeypot="bot-field" data-netlify-recaptcha="true">
 								<div>
+									<span class="hidden">
+										<label>
+										  Don’t fill this out if you’re human: <input name="bot-field" />
+										</label>
+									</span>
 									<div class="row">
 										<div class="col-6 col-12-medium">
 											<input type="text" name="name" placeholder="Name" required="true" />
@@ -443,6 +449,7 @@
 										</div>
 										<div class="col-12">
 											<textarea name="message" placeholder="Message" rows="4" maxlength="250" required="true"></textarea>
+											<div data-netlify-recaptcha="true"></div>
 											<input type="submit" value="Submit" required="true"/>
 										</div>
 								</div>
